@@ -1,3 +1,9 @@
+import heroCorporateOffice from '../assets/images/hero_corporate_office_1792171498667.jpg';
+import productErgonomicChair from '../assets/images/product_ergonomic_chair_1792171498721.jpg';
+import productWorkstationsBench from '../assets/images/product_workstations_bench_1792171499790.jpg';
+import productExecutiveDesk from '../assets/images/product_executive_desk_1792171499612.jpg';
+import productStorageCabinets from '../assets/images/product_storage_cabinets_1792171500148.jpg';
+
 export interface ProductItem {
   id: string;
   name: string;
@@ -63,7 +69,7 @@ export const siteData = {
     badge: 'Móveis para Escritório e Corporativos em Cuiabá - MT',
     title: 'Mobiliário Corporativo, Cadeiras Ergonômicas e Soluções para o Seu Escritório',
     subtitle: 'Móveis projetados para produtividade e ergonomia NR-17. Atendimento consultivo especializado, entrega com montagem profissional e showroom na Av. Edna Maria de Albuquerque Affi em Cuiabá.',
-    heroImage: '/src/assets/images/hero_corporate_office_1792171498667.jpg',
+    heroImage: heroCorporateOffice,
   },
 
   stats: [
@@ -105,7 +111,7 @@ export const siteData = {
       category: 'cadeiras',
       categoryLabel: 'Cadeiras Ergonômicas',
       badge: 'Conformidade NR-17',
-      image: '/src/assets/images/product_ergonomic_chair_1792171498721.jpg',
+      image: productErgonomicChair,
       description: 'Estrutura reforçada em alumínio polido com tela mesh respirável de alta densidade, apoio lombar ajustável e mecanismo sincronizado relax para jornadas longas de trabalho.',
       specs: ['Braços 3D reguláveis', 'Apoio lombar ajustável', 'Base em alumínio polido', 'Pistão a gás classe 4'],
       ctaMessage: 'Olá! Gostaria de solicitar um orçamento para a Cadeira Presidente Ergonômica Mesh Pro na RAV Escritórios.'
@@ -116,7 +122,7 @@ export const siteData = {
       category: 'estacoes',
       categoryLabel: 'Estações de Trabalho',
       badge: 'Alta Produtividade',
-      image: '/src/assets/images/product_workstations_bench_1792171499790.jpg',
+      image: productWorkstationsBench,
       description: 'Plataforma corporativa open-space com painéis divisórios acústicos em tecido, calha estrutural para cabeamento de energia e rede, e tampos em MDF de alta resistência.',
       specs: ['Passagem embutida de fiação', 'Divisória acústica integrada', 'MDF 25mm com borda ABS', 'Módulos expansíveis'],
       ctaMessage: 'Olá! Gostaria de cotar uma Estação de Trabalho Modular (4 a 6 lugares) para minha empresa na RAV Escritórios.'
@@ -127,7 +133,7 @@ export const siteData = {
       category: 'mesas',
       categoryLabel: 'Mesas de Reunião & Diretoria',
       badge: 'Linha Executiva',
-      image: '/src/assets/images/product_executive_desk_1792171499612.jpg',
+      image: productExecutiveDesk,
       description: 'Mesa imponente para diretoria e gerência com acabamento nobre em madeira nogueira e estrutura tubular metálica em pintura epóxi fosca, acompanhada de gaveteiro fixo.',
       specs: ['Tampo robusto 40mm', 'Estrutura metálica industrial', 'Gaveteiro embutido com chave', 'Caixa de conectividade'],
       ctaMessage: 'Olá! Gostaria de um orçamento para a Mesa Executiva de Diretoria Premium na RAV Escritórios.'
@@ -138,7 +144,7 @@ export const siteData = {
       category: 'armarios',
       categoryLabel: 'Armários & Arquivos',
       badge: 'Alta Durabilidade',
-      image: '/src/assets/images/product_storage_cabinets_1792171500148.jpg',
+      image: productStorageCabinets,
       description: 'Sistema modular de armários corporativos com portas de correr e nichos abertos para pastas AZ, ideal para organização documental e segurança patrimonial.',
       specs: ['Fechadura com chave escamoteável', 'Prateleiras reguláveis reforçadas', 'Trilho de correr silencioso', 'Niveladores de piso'],
       ctaMessage: 'Olá! Gostaria de um orçamento para Armários Corporativos e Arquivos na RAV Escritórios.'
@@ -149,7 +155,7 @@ export const siteData = {
       category: 'mesas',
       categoryLabel: 'Mesas de Reunião & Diretoria',
       badge: 'Espaço Estratégico',
-      image: '/src/assets/images/hero_corporate_office_1792171498667.jpg',
+      image: heroCorporateOffice,
       description: 'Mesa retangular para salas de conferência e decisões estratégicas de 8 a 12 pessoas, com caixas de tomadas embutidas para apresentações dinâmicas.',
       specs: ['Acomoda de 8 a 12 pessoas', 'Caixas de tomadas e HDMI embutidas', 'Estrutura estável anti-vibração', 'Diversas opções de cores'],
       ctaMessage: 'Olá! Gostaria de um orçamento para a Mesa de Reunião Corporativa na RAV Escritórios.'
@@ -160,7 +166,7 @@ export const siteData = {
       category: 'recepcao',
       categoryLabel: 'Recepção & Atendimento',
       badge: 'Primeira Impressão',
-      image: '/src/assets/images/hero_corporate_office_1792171498667.jpg',
+      image: heroCorporateOffice,
       description: 'Balcão com módulo de atendimento acessível, frontal com detalhe arquitetônico e espaço interno ergonômico com passa-fios e gavetas para recepcionistas.',
       specs: ['Frontal com acabamento nobre', 'Padrão acessível NBR 9050', 'Furação interna para computadores', 'Gaveteiro embutido'],
       ctaMessage: 'Olá! Gostaria de informações e orçamento sobre Balcão de Recepção Corporativo na RAV Escritórios.'
