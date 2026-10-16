@@ -1,0 +1,6 @@
+{
+  "name": "RAV Escritórios - Móveis Corporativos em Cuiabá",
+  "description": "Móveis ergonômicos, cadeiras executivas, mesas e estações de trabalho para escritórios em Cuiabá - MT. Solicite orçamento pelo WhatsApp.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
